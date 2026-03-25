@@ -63,7 +63,7 @@ Le problème semble provenir d’un conflit entre l’état du joueur maintenu s
   - Désynchronisation caméra  
   - Problèmes liés au timing (frames)  
 
-📌 Exemple concret (QA Report complet) :[Voir le QA Report complet](PhoneOnSkate/QA_Report.md)
+📌 Exemple concret (QA Report complet) :[Voir le QA Report complet](PhoneOnSkate/QA_Report_v0.1.md)
 
 ---
 
