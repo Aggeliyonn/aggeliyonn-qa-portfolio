@@ -1,125 +1,149 @@
-*QA Report - PhoneOnSkate v0.1
+# 🧪 QA Report – PhoneOnSkate v0.1
 
-Jeux : Schedule 1 - PhoneOnSkate
-**Résumé:
-🔴 Critiques : 1
-🟠 Majeurs : 1
-🟡 Mineurs : 1
-🟢 Visuels : 0
-📌 Statut global
-✔ Corrigés : 2
-🔧 En cours : 1
-❗ Restants : 1
+**Jeux :** Schedule 1 - PhoneOnSkate
 
-**Dev Log:
+---
+
+## 📊 Résumé
+
+- 🔴 Critiques : 1  
+- 🟠 Majeurs : 1  
+- 🟡 Mineurs : 1  
+- 🟢 Visuels : 0  
+
+### 📌 Statut global
+- ✔ Corrigés : 2  
+- 🔧 En cours : 1  
+- ❗ Restants : 1  
+
+---
+
+## 🔧 Dev Log
+
+Objectif :  
 Pouvoir sortir le téléphone en étant sur le skate roulant et refermer le téléphone sans descendre et continuer sa route.
 
+### Étape – Bloquer le dismount
+- Empêcher le dismount à l’ouverture du téléphone  
 
-Étape Bloquer le dismount
-Empêcher le dismount a l’ouverture du téléphone
+### Étape – Ralentir le dismount
+- Empêcher le dismount pendant 6 frames après l’ouverture du téléphone  
 
-Étape Ralentir le dismount
-Empêcher le dismount pendants 6 frame après l’ouverture du téléphone
+### Étape – Dismount Remount
+- Remount automatique après dismount contrôlé  
 
-Étape Dismount Remount
-Remount automatiquement après dismount contrôlé
+---
 
-**Qa Bug Report
+## 🐞 QA Bug Report
 
-***Origine: Étape Bloquer le dismount
+---
 
-Conditions:
-Être sur le skate et ouvrir le téléphone
+### 🔴 Bug – Freeze écran
 
-Étapes:
-Montez sur le skate
-Ouvrir le téléphone
+**Origine :** Étape Bloquer le dismount  
 
-Résultat actuel:
-Freeze complet du jeu
-Apparitions d’une zone noire dans l’interface au zone de texte
+#### Conditions
+- Être sur le skate et ouvrir le téléphone  
 
+#### Étapes
+1. Monter sur le skate  
+2. Ouvrir le téléphone  
 
+#### Résultat actuel
+- Freeze complet du jeu  
+- Apparition d’une zone noire à la place du texte  
 
+#### 📷 Capture du bug
+*(ajoute ton image ici plus tard)*
 
-Capture du Bug:
+#### Résultat attendu
+- Rester sur le skate avec le téléphone ouvert  
 
+#### Fréquence
+- 10/10  
 
-Résultat attendu:
-Restez sur le skate avec le téléphone ouvert
+#### Reproductibilité
+- Toujours → déclenchable à coup sûr  
 
-Fréquence: 10/10
+#### Analyse
+- Semble lié à la caméra, au joueur (entité), au skate (objet) et au téléphone (UI)  
+- Se produit uniquement sur le skate  
+- Probable conflit entre les objets téléphone, joueur et skate  
+- Le problème semble provenir d’un conflit entre interface et caméra  
 
-Reproductibilité:
-Toujours -> Je peux le déclencher à coup sûr
+#### Statut
+- ✔ Corrigé  
 
-Analyse:
-Semble lié à la caméra, aux joueur(entité), au skate(objet), au téléphone(UI)
-Se produit uniquement si sur le skate
-Probable conflit entre l’objet du téléphone, le joueur, et l’objet du skate
-Le problème semble provenir d’un conflit complet d’Interface mélanger à la caméra
+---
 
-Statut:
-Corrigé
+### 🟠 Bug – Remount impossible après délai
 
+**Origine :** Étape Ralentir le dismount  
 
-***Origine : Étape Ralentir le dismount
+#### Conditions
+- Être sur le skate  
+- Ouvrir le téléphone  
+- Attendre 6 frames  
 
-Conditions:
-être sur le skate et ouvrir le téléphone
-attendre 6 frames et tenter de remount
+#### Étapes
+1. Monter sur le skate  
+2. Ouvrir le téléphone  
 
-Étapes:
-Monter sur le skate
-Ouvrir le téléphone
+#### Résultat actuel
+- Le jeu continue normalement  
+- Aucun remount effectué  
 
-Résultat actuel:
-Le jeux tourne normalement, comme si on avais rien toucher
+#### Résultat attendu
+- Remonter sur le skate après les 6 frames  
 
-Résultat attendu:
-Remontez sur le skate après les 6 frames qui précèdent l'ouverture du téléphone.
+#### Fréquence
+- 10/10  
 
-Fréquence: 10/10
+#### Reproductibilité
+- Toujours → déclenchable à coup sûr  
 
-Reproductibilité:
-Toujours -> Je peux le déclencher à coup sûr
+#### Analyse
+- Semble lié à l’interface téléphone et à l’objet skate  
+- Le skate disparaît temporairement pendant les 6 frames  
+- Le remount ne peut pas être appliqué  
 
-Analyse:
-Semble lié à l’interface du téléphone, l'objet du skate dans le monde
-Le skate semble disparaître durant ces 6 frames ducoup l’appel du personnage sur le skate n'est pas possible.
+#### Statut
+- ✔ Corrigé  
 
-Statut:
-Corrigé
+---
 
+### 🟡 Bug – Désynchronisation caméra
 
-***Origine : Étape Dismount Remount
+**Origine :** Étape Dismount Remount  
 
-Conditions:
-Ouvrir le téléphone en étant sur le skate
+#### Conditions
+- Ouvrir le téléphone en étant sur le skate  
 
-Étapes:
-Monter sur le skate
-Ouvrir le téléphone
-Patienter
-Fermer le téléphone
+#### Étapes
+1. Monter sur le skate  
+2. Ouvrir le téléphone  
+3. Attendre  
+4. Fermer le téléphone  
 
-Résultat actuel:
-Le remount fonctionne très bien, ca bug a la fermeture du téléphone.
+#### Résultat actuel
+- Le remount fonctionne  
+- Bug caméra à la fermeture  
 
-Résultat attendu:
-Monter sur le skate, ouvrir le téléphone, continuer à rouler, fermer le téléphone, continuer à rouler.
+#### Résultat attendu
+- Continuer à rouler normalement après fermeture  
 
-Fréquence: 10/10
+#### Fréquence
+- 10/10  
 
-Reproductibilité:
-Toujours -> Je peux le déclencher à coup sûr
+#### Reproductibilité
+- Toujours → déclenchable à coup sûr  
 
-Analyse:
-Le dismount remount fonctionne très bien, le joueur peut continuer à rouler en ayant le téléphone en mains.
-À la fermeture du téléphone, la caméra bug.
-À la fermeture, le jeu pense que nous devons être en first personne.
-Le remount fais en sorte que le joueur (entité dans le monde) soit toujours sur le skate
-La caméra c’est pas si elle doit être première ou troisième personne.
+#### Analyse
+- Le joueur reste correctement sur le skate  
+- La caméra devient incohérente  
+- Le jeu pense être en first person  
+- Conflit entre état joueur et gestion caméra  
+- La caméra ne sait pas si elle doit être en première ou troisième personne  
 
-Statut:
-En cours
+#### Statut
+- 🔧 En cours  
