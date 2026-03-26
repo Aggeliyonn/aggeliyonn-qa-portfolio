@@ -1,257 +1,182 @@
-# 🧪 In Progress - [NomDuMod]
+# 🧪 In Progress - [NomDuProjet]
 
 **Statut :** 🟠 In Progress  
 **Version :** v0.1  
-**Type :** Feature / Mod  
+**Type :** Mod / Feature / Tool  
+**Projet cible :** [Nom du jeu ou logiciel]  
 **Objectif principal :**  
-> [Décris ici l’objectif principal du mod]
+> [Décris ici l’objectif principal]
 
 **Vision finale :**  
-> [Décris ici ce que le mod doit permettre une fois terminé]
+> [À quoi doit ressembler le projet terminé]
 
 ---
 
-## 🧱 Architecture du mod
+## 🧱 Architecture
 
 ### Core
-- Initialisation MelonLoader
-- Harmony PatchAll
+- Initialisation du projet
 - Gestion des états globaux
-- Chargement des systèmes du mod
+- Chargement des modules
 
-### UI
-- Fenêtre principale
-- Toggle clavier
-- Boutons d’action
-- Affichage des informations utiles
+### UI (si applicable)
+- Interface principale
+- Système d’ouverture / fermeture
+- Interaction utilisateur
 
 ### Data
-- Scan / lecture des données
+- Récupération des données
+- Traitement des données
 - Stockage temporaire
-- Nettoyage des valeurs
-- Préparation pour affichage
 
-### Hooks
-- Hooks Harmony nécessaires
+### Hooks / Intégration
+- Points d’entrée dans le système cible
 - Méthodes surveillées
-- Détection des bons contextes
+- Détection du bon contexte
 
 ### Debug
-- Logs utiles
-- Vérifications rapides
-- Suivi des erreurs
-- Hypothèses de travail
+- Système de logs
+- Vérifications
+- Suivi des comportements
 
 ---
 
-## ⚙️ Progression par système
+## ⚙️ Progression
+
+### 🧩 Core
+- [ ] Initialisation fonctionnelle
+- [ ] Chargement sans erreur
+- [ ] Gestion des états
 
 ### 🧩 UI
-- [ ] Fenêtre visible en jeu
-- [ ] Toggle clavier fonctionnel
-- [ ] Affichage propre
-- [ ] Scroll fonctionnel
-- [ ] Boutons utilisables
-- [ ] Intégration au bon contexte
+- [ ] Interface visible
+- [ ] Interaction possible
+- [ ] Affichage correct
 
 ### 🧩 Data
-- [ ] Lecture des données principales
-- [ ] Lecture des données secondaires
-- [ ] Nettoyage des valeurs
-- [ ] Vérification des données nulles
-- [ ] Mise en cache si nécessaire
+- [ ] Accès aux données
+- [ ] Données cohérentes
+- [ ] Traitement correct
 
-### 🧩 Input
-- [ ] Touche d’ouverture / fermeture
-- [ ] Vérification du contexte avant ouverture
-- [ ] Blocage dans les mauvaises scènes
-- [ ] Input stable en jeu
-
-### 🧩 Hooks
-- [ ] Hook principal trouvé
-- [ ] Hook secondaire trouvé
-- [ ] Test des appels
-- [ ] Vérification de stabilité
-- [ ] Éviter les conflits / appels inutiles
+### 🧩 Intégration
+- [ ] Connexion au système cible
+- [ ] Détection du bon contexte
+- [ ] Comportement stable
 
 ### 🧩 Debug
-- [ ] Logs de base
-- [ ] Logs détaillés
-- [ ] Identification des erreurs
-- [ ] Vérification des hypothèses
-- [ ] Nettoyage des logs inutiles
+- [ ] Logs utiles
+- [ ] Erreurs identifiées
+- [ ] Tests validés
 
 ---
 
 ## 🔍 Découvertes techniques
 
-- [Note ici une découverte utile]
-- [Note ici une classe importante]
-- [Note ici une méthode intéressante]
-- [Note ici une donnée récupérable]
-- [Note ici une relation utile entre systèmes]
+- [Classe / système intéressant]
+- [Méthode utile]
+- [Comportement observé]
+- [Relation entre systèmes]
 
 ### Hypothèses
 - [Hypothèse 1]
 - [Hypothèse 2]
-- [Hypothèse 3]
 
 ### Cibles importantes
-- [Classe / méthode / champ]
-- [Classe / méthode / champ]
-- [Classe / méthode / champ]
+- [Élément à exploiter]
+- [Élément à surveiller]
 
 ---
 
 ## 🧠 Problèmes rencontrés
 
-### ❌ Problème 1
-- **Description :** [Décris le problème]
-- **Cause probable :** [Cause supposée]
-- **Impact :** [Ce que ça bloque]
-- **Statut :** [À tester / En cours / Corrigé]
-
-### ❌ Problème 2
-- **Description :** [Décris le problème]
-- **Cause probable :** [Cause supposée]
-- **Impact :** [Ce que ça bloque]
-- **Statut :** [À tester / En cours / Corrigé]
-
-### ❌ Problème 3
-- **Description :** [Décris le problème]
-- **Cause probable :** [Cause supposée]
-- **Impact :** [Ce que ça bloque]
-- **Statut :** [À tester / En cours / Corrigé]
+### ❌ Problème
+- **Description :**
+- **Cause probable :**
+- **Impact :**
+- **Statut :** À tester / En cours / Corrigé
 
 ---
 
 ## 🛠 Solutions testées
 
-### ✔ Test 1
-- **Action :** [Ce que tu as essayé]
-- **Résultat :** [OK / Partiel / Échec]
-- **Notes :** [Détails utiles]
-
-### ✔ Test 2
-- **Action :** [Ce que tu as essayé]
-- **Résultat :** [OK / Partiel / Échec]
-- **Notes :** [Détails utiles]
-
-### ✔ Test 3
-- **Action :** [Ce que tu as essayé]
-- **Résultat :** [OK / Partiel / Échec]
-- **Notes :** [Détails utiles]
+### ✔ Tentative
+- **Action :**
+- **Résultat :**
+- **Notes :**
 
 ---
 
 ## 🛠 Choix techniques
 
-- **Loader :** [Ex: MelonLoader]
-- **Patch system :** [Ex: Harmony]
-- **Type UI :** [Ex: IMGUI]
-- **Langage :** [Ex: C#]
-- **Jeu ciblé :** [Nom du jeu]
-- **Version cible :** [Version du jeu]
+- **Technologie principale :** [ex: C#, Python, etc.]
+- **Framework / Loader :** [si applicable]
+- **Type d’interface :** [si applicable]
 
 ### Choix validés
-- [Choix technique 1]
-- [Choix technique 2]
-- [Choix technique 3]
+- [Choix 1]
+- [Choix 2]
 
-### Refusés / écartés
-- [Option refusée 1]
-- [Option refusée 2]
-- [Option refusée 3]
+### Refusés
+- [Option écartée]
 
 ---
 
-## 📊 État actuel du mod
+## 📊 État actuel
 
 ### ✅ Fonctionne
-- [Élément fonctionnel]
-- [Élément fonctionnel]
-- [Élément fonctionnel]
+- [Élément]
 
 ### ⚠️ Partiel
-- [Élément partiellement fonctionnel]
-- [Élément partiellement fonctionnel]
+- [Élément]
 
 ### ❗ À faire
-- [Élément restant]
-- [Élément restant]
-- [Élément restant]
+- [Élément]
 
 ---
 
 ## 🔮 Roadmap
 
 ### Phase 1 - Base
-- [ ] Créer la base du mod
-- [ ] Initialiser les patches
-- [ ] Ajouter les premiers logs
-- [ ] Vérifier le chargement
+- [ ] Mise en place
+- [ ] Tests initiaux
 
 ### Phase 2 - Fonction principale
-- [ ] Trouver les bonnes données
-- [ ] Lire les données
-- [ ] Afficher les données
-- [ ] Vérifier la stabilité
+- [ ] Implémentation
+- [ ] Validation
 
-### Phase 3 - UX / amélioration
-- [ ] Nettoyer l’interface
-- [ ] Ajouter filtres / scroll / organisation
-- [ ] Améliorer lisibilité
-- [ ] Bloquer hors contexte
+### Phase 3 - Amélioration
+- [ ] Optimisation
+- [ ] UX / lisibilité
 
 ### Phase 4 - Finalisation
-- [ ] Nettoyer le code
-- [ ] Réduire les logs inutiles
-- [ ] Tester plusieurs situations
-- [ ] Préparer release
+- [ ] Nettoyage
+- [ ] Tests finaux
+- [ ] Release
 
 ---
 
 ## 🧾 Dev Notes
 
 ### Session [Date]
-- [Ce qui a été fait]
-- [Ce qui a été trouvé]
-- [Ce qui reste flou]
-- [Prochaine action]
-
-### Session [Date]
-- [Ce qui a été fait]
-- [Ce qui a été trouvé]
-- [Ce qui reste flou]
-- [Prochaine action]
-
-### Session [Date]
-- [Ce qui a été fait]
-- [Ce qui a été trouvé]
-- [Ce qui reste flou]
-- [Prochaine action]
+- [Action réalisée]
+- [Découverte]
+- [Blocage]
+- [Prochaine étape]
 
 ---
 
-## 📤 Résumé vers DevLog / QA_Report
+## 📤 Export
 
-### À envoyer dans le DevLog
-- [Étape terminée]
-- [Progression importante]
-- [Nouvelle découverte]
-- [Feature visible]
+### DevLog
+- [Progression notable]
 
-### À envoyer dans le QA_Report
-- [Bug clair et reproductible]
-- [Fix testé]
-- [Résultat attendu vs obtenu]
-- [Statut final]
+### QA_Report
+- [Bug ou test validé]
 
 ---
 
 ## 🧿 Notes libres
 
-- [Idée future]
-- [Amélioration potentielle]
-- [Rappel important]
-- [Lien avec un autre mod]
+- [Idée]
+- [Amélioration]
+- [Rappel]
