@@ -96,6 +96,20 @@
 * Dismount triggers
 * Camera update logic
 
+### ⚠️ Current Limitations
+
+- No direct access to raw game data  
+- Reliance on UI parsing  
+
+### ⚠️ Observed Risks
+
+#### Data Consistency
+
+- **Description:** Data retrieved from phone may differ from actual values  
+- **Cause:** UI-based extraction  
+- **Impact:** Potential inaccurate calculations  
+- **Status:** Monitoring  
+
 ---
 
 ## 🧠 Problems Encountered
@@ -191,12 +205,18 @@
 
 ## 🧾 Dev Notes
 
-### Session [Current]
+### Session 1
+- Implemented dismount blocking  
+- Observed camera bug  
 
-* Phone usable on skateboard
-* Identified camera desync
-* Clone issue reproduced
-* Next step: stabilize transitions
+### Session 2
+- Added logs  
+- Identified timing issue  
+
+### Session 3
+- Phone usable on skateboard  
+- Clone issue reproduced  
+- Next step: stabilize transitions  
 
 ---
 
