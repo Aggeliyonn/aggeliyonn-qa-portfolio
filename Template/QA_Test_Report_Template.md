@@ -12,16 +12,16 @@ Template used to document QA tests, bugs, and analyses.
 
 ## 📊 Summary
 
-🔴 Reviews:
-🟠 Major:
-🟡 Minor:
-🟢 Visuals:
+🔴 Reviews: x
+🟠 Major: x
+🟡 Minor: x
+🟢 Visuals: x
 
 ### 📌 Overall Status
 
-✔ Fixed:
-🔧 In Progress:
-❗ Remaining:
+✔ Fixed: x
+🔧 In Progress: x
+❗ Remaining: x
 
 ---
 
