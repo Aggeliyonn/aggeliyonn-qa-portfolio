@@ -73,7 +73,7 @@ The issue appears to come from a conflict between the player's state being maint
   * Timing issues (frames)
 
 📌 Concrete example (Full QA Report):
-👉 [See the QA Report](PhoneOnSkate/QA_Report_v0.1.md)
+👉 [See the QA Report](Mod/Schedule1/PhoneOnSkate/QA_Report_v0.1.md)
 
 📊 ProfitCalculator — Schedule I
 
@@ -90,7 +90,7 @@ Profit calculation logic
 UI display and filtering (effects, ingredients, profit)
 
 📌 Development tracking:
-👉 [See the project](ProfitCalculator/README.md)
+👉 [See the project](Mod/Schedule1/ProfitCalculator/README.md)
 
 ---
 
