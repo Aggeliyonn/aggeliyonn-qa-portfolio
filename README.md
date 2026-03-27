@@ -121,3 +121,7 @@ The issue appears to come from a conflict between the player's state being maint
 * Multi-state systems analysis
 * Log reading (MelonLoader / Unity)
 * Modding (Harmony, IL2CPP)
+
+## 🧠 Additional Notes
+- This repository also includes technical discoveries and development insights made while working on mods and tools.
+- [See](DevInsights)
