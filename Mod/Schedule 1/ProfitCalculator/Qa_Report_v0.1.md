@@ -2,42 +2,43 @@
 
 ---
 
-## 🎮 Informations
+## 🎮 Information
 
-**Jeux :** Schedule 1 - ProfitCalculator 
+**Games:** Schedule 1 - Profit Calculator
 
 ---
 
-## 📊 Résumé
+## 📊 Summary
 
-🔴 Critiques :  
-🟠 Majeurs :  
-🟡 Mineurs :  
-🟢 Visuels :  
+🔴 Reviews:
+🟠 Major:
+🟡 Minor:
+🟢 Visuals:
 
-### 📌 Statut global
+### 📌 Overall Status
 
-✔ Corrigés :  
-🔧 En cours :  
-❗ Restants :  
+✔ Fixed:
+🔧 In Progress:
+❗ Remaining:
 
 ---
 
 ## 🔧 Dev Log
 
-**Objectif global :**  
+**Overall Objective:**
 
-Ouvrir un menu répertoriant toutes les recettes de la partie avec les coûts, profits et ingrédients.
+Open a menu listing all the game's recipes with their costs, profits, and ingredients.
 
-### Étape Ouvrir un interface.
-Objectif :  
-Appuyez sur une touche pour ouvrir une fenêtre.
+### Step: Open an interface.
 
-### Étape Y  
-Objectif :  
+Objective:
+Press a key to open a window.
 
-### Étape Z  
-Objectif :  
+### Step Y
+Objective:
+
+### Step Z
+Objective:
 
 ---
 
@@ -45,36 +46,36 @@ Objectif :
 
 ---
 
-### 🔴 Bug – Nom
+### 🔴 Bug – Name
 
-**Origine :** Étape X  
+**Origin:** Step X
 
 #### Conditions
--  
+-
 
-#### Étapes
-1.  
-2.  
-3.  
+#### Steps
+1.
+2.
+3.
 
-#### Résultat actuel
--  
+#### Current Result
+-
 
-#### Résultat attendu
--  
+#### Expected Result
+-
 
-#### Fréquence
--  
+#### Frequency
+-
 
-#### Reproductibilité
-- Toujours  
-- Parfois  
-- Rare  
+#### Reproducibility
+- Always
+- Sometimes
+- Rare
 
-#### Analyse
--  
--  
--  
+#### Analysis
+-
+-
+-
 
-#### Statut
-À corriger / En cours / Corrigé / Non prioritaire / Won’t Fix  
+#### Status
+To be fixed / In progress / Fixed / Not a priority / Won't Fix
