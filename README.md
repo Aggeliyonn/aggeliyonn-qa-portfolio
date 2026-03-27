@@ -90,7 +90,7 @@ Profit calculation logic
 UI display and filtering (effects, ingredients, profit)
 
 📌 Development tracking:
-👉 See the project (ProfitCalculator/README.md
+👉 [See the project](ProfitCalculator/README.md)
 
 ---
 
